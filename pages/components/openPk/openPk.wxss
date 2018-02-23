@@ -1,0 +1,12 @@
+/* pages/components/openPk/openPk.wxss */
+.need-money-title{
+  font-size: 28rpx;
+  line-height: 64rpx;
+  color: #939393;
+  text-align: center;
+}
+.need-money-number{
+  font-size: 70rpx;
+  color: #ce3232;
+  text-align: center;
+}

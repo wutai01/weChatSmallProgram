@@ -1,0 +1,22 @@
+/* pages/components/myButton/myButton.wxss */
+.my-button{
+  color: #fff;
+  width: 196rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  font-size: 30rpx;
+  display: inline-block;
+  margin: 20rpx;
+}
+.deep-blue{
+  background-color: #77a7bd;
+}
+.disabled{
+  background-color: #c7c7c7;
+}
+.purple{
+  background-color: #9180e8;
+}
+.green{
+  background-color: #53c774;
+}

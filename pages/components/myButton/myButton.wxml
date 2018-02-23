@@ -1,0 +1,4 @@
+<!--pages/components/myButton/myButton.wxml-->
+<button class="'my-button '+{{classType}}" bindtap="onTap">
+  <slot></slot>
+</button>

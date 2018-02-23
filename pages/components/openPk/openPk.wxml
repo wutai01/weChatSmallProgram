@@ -1,0 +1,12 @@
+<!--pages/components/openPk/openPk.wxml-->
+<view>
+    <view class="need-money-title">
+    比赛金额：
+    </view>
+    <view class="need-money-number">
+    2.00元
+    </view>
+    <mybutton class-type="deep-blue">放弃</mybutton>
+    <mybutton class-type="disabled">开始比赛</mybutton>
+    <mybutton class-type="purple">邀请</mybutton>
+</view>

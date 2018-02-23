@@ -1,0 +1,9 @@
+<!--pages/components/waitPk/waitPk.wxml-->
+<view class="pk-result">
+  <view class="pk-result-main clearfix">
+    <view class="pk-result-mark">156</view>
+    <view class="pk-result-vs">VS</view>
+    <view class="pk-result-mark pk-result-ing">等待对方比赛...</view>
+  </view>
+  <view class="pk-result-text">你可以在PK记录里查询</view>
+</view>

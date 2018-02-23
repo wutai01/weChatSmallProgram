@@ -1,0 +1,34 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.challenged-info{
+  width: 100%;
+  height: 315rpx;
+  padding-left: 40rpx;
+  background-color: #fff;
+}
+.user-challenged{
+  height: 395rpx;
+  width: 100%;
+  text-align: center;
+  /* padding-top: 62rpx; */
+}

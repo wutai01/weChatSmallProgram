@@ -1,0 +1,6 @@
+<!--pages/menu/menu.wxml-->
+<view>
+  <button bindtap="goPk">链接PK</button>
+  <button bindtap="goSwpier">链接swpier</button>
+  <button bindtap="goTest">链接scroll</button>
+</view>

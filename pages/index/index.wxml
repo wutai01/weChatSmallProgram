@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 被挑战者 -->
+  <view class="user-challenged">
+    <userheader user-type="{{userType1}}" src="{{userInfo.avatarUrl}}" nick-name = "{{userInfo.nickName}}"></userheader>
+  </view>
+
+  <!-- 挑战的基本信息 -->
+  <view class="challenged-info">
+    <!-- <openpk></openpk> -->
+    <pkresult></pkresult>
+  </view>
+
+  <!-- 发起者 -->
+  <view class="user-initiator">
+    <userheader user-type="{{userType}}" src="{{userInfo.avatarUrl}}" nick-name = "{{userInfo.nickName}}"></userheader>
+  </view>
+  
+  
+  
+  <!-- <view class="userinfo">
+    {{userType}}
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+     <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text bindtap="bindViewTest1">test1</text>
+      <text bindtap="bindViewTest2">swiper</text>
+    </block> 
+  </view> -->
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>

@@ -1,0 +1,4 @@
+/* pages/swpier/swpier.wxss */
+.slide-image{
+  width: 100%;
+}

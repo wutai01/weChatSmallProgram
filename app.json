@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/menu/menu",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test1/test1",
+    "pages/swpier/swpier"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4a3c93",
+    "navigationBarTitleText": "WeChat1",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,17 @@
+<!--pages/components/userHeader/userHeader.wxml
+  type：
+    1 等待加入
+    2 已经正常加入
+    3 已经结束，获胜
+-->
+<view class="user-header-component">
+  <view class="user-header">
+    <image class="userinfo-avatar" src="{{src}}" wx:if="{{userType == 3 || userType == 2}}"></image> 
+    <view class="wait-user" wx:if="{{userType == 1}}">等待加入...</view>
+    <image class='user-win' src='../../../i/crown.png' wx:if="{{userType == 3}}"></image>
+  </view>
+  <text class="user-nick-name">{{nickName}}</text>
+  <!-- <text wx:if="{{userType == 1}}">1号类型{{userType}}</text>
+  <text wx:if="{{userType == 2}}">2号类型</text> -->
+</view>
+

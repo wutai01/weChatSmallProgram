@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "navigationBarTitleText": "好友PK",
+  "usingComponents": {
+    "userheader": "../components/userHeader/userHeader",
+    "openpk": "../components/openPk/openPk",
+    "pkresult": "../components/pkResult/pkResult"
+  }
+}
